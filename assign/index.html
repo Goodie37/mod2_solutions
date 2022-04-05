@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>week2 assignment</title>
+
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+			margin: auto;
+			padding: auto;
+			font-family:Helvetica;
+		}
+
+		body {
+			background-color: lightblue;
+			padding: 20px;
+		}
+
+		h1 {
+		  text-align: center;
+		  padding-bottom: 40px;
+		  font-size: 25px
+		}
+
+		.box1 {
+			padding: 10px;
+			float: left;
+		}
+
+		.box2 {
+			padding: 10px;
+			float: left;
+		}
+
+		.box3 {
+			padding: 10px;
+			float: left;
+		}
+
+		.container-fluid {
+		    position: relative;
+		    border-style: solid;
+		    border-width: 3px;
+		    border-color: black;
+		    background-color: grey;
+		}
+
+		p {
+			clear: right;
+			padding: 10px;
+		}
+
+
+		.topsection {
+			border-style: solid;
+			border-width: 2px;
+			border-color: black;
+			background-color: red;
+			color: white;
+			text-align: center;
+			float: right;
+			width: 150px;
+			height: 35px;
+			font-size:25px; 
+		}
+
+		.topsection2 {
+			border-style: solid;
+			border-width: 2px;
+			border-color: black;
+			background-color: pink;
+			text-align: center;
+			float: right;
+			width: 150px;
+			height: 35px;
+			font-size:25px; 
+		}
+
+		.topsection3 {
+			border-style: solid;
+			border-width: 2px;
+			border-color: black;
+			background-color: yellow;
+			text-align: center;
+			float: right;
+			width: 150px;
+			height: 35px;
+			font-size:25px; 
+		}
+
+
+		@media (min-width: 992px) {
+		  .box1 {
+		    width: 33.33%;
+		  }
+		  
+		  .box2 {
+		    width: 33.33%;
+		  }
+
+		  .box3 {
+		    width: 33.33%;
+		  }
+		}
+
+		@media (min-width: 768px) and (max-width: 991px) {
+		  .box1 {
+		    width: 50%;
+		  }
+		  
+		  .box2 {
+		    width: 50%;
+		  }
+
+		  .box3 {
+		    width: 100%;
+		  }
+
+		@media (max-width: 767px) {
+		  .box1 {
+		    width: 100%;
+		  }
+		  
+		  .box2 {
+		    width: 100%;
+		  }
+
+		  .box3 {
+		    width: 100%;
+		  }
+		}
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+	<div class="box1">
+		<div class="container-fluid">
+			<div class="topsection">Chicken</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+		</div>		
+	</div>
+	<div class="box2">
+		<div class="container-fluid">
+			<div class="topsection2">Beaf</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+		</div>		
+	</div>
+	<div class="box3">
+		<div class="container-fluid">
+			<div class="topsection3">Sushi</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+		</div>		
+	</div>
+</body>
+</html>
